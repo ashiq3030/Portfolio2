@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    box-shadow: 0 0 20px #5E3BEE;
+}
+.menu ul li a {
+    padding: 0 22px!important;
+}
+.menu img {
+    width: 160px;
+}
+.menu_btn{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 21px;
+    padding: 18px 30px;
+    color: #5E3BEE;
+    background-color:transparent;
+    border: 2px  solid#5E3BEE;
+    border-radius: 5px; 
+}
+.hero_img{
+    width: 100%;
+    margin-top: -40px;
+}
+.hero_text h4{
+    font-size: 21px;
+    font-family: Roboto;
+    font-weight: 600;
+    color: #282938;
+    margin-bottom:21px;
+}
+.hero_text h1{
+    font-size: 52px;
+    font-family: Roboto;
+    font-weight: 700;
+    color: #282938;
+    margin-bottom: 21px;
+}
+.hero_text h1 span{
+    color:#5E3BEE;
+}
+.hero_text p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1C1E53;
+    margin-bottom: 32px;
+    padding-right:75px;
+}
+.hero_text button {
+    font-family: Roboto;
+    font font-weight: 400;
+    font-size: 21px;
+    padding:18px 30px;
+    color: #fff;
+    border: 2px solid #5E3BEE;
+    border-radius: 5px;
+    background-color:#5E3BEE;
+    -wekit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+#hero{
+    padding: 133px 0;
+    background-color:#F5FCFF;
+}
+
+#skills{
+    padding: 149px 0
+}
+
+.skill_top{
+    padding-bottom: 106px;
+}
+.skill_top h5{
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 600;
+    color: #282938;
+}
+.skill_top h3{
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 700;
+    color: #282938;
+    margin-top: 21px;
+}
+
+.skill_item {
+    transition:.5s;
+    background-color: #F5FCFF;
+    padding:18px;
+    border-radius: 8px;
+    -wekit-border-radius:8px;
+    -moz-border-radius:8px;
+    -ms-border-radius:8px;
+    -o-border-radius:8px;
+}
+.skill_item:hover{
+     border-bottom: 4px solid #5E3BEE;   
+}
+
+.skill_item h4{
+    margin-top:20px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    color: #282938;
+}
+
+.skill_item p{
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 400;
+    color: #1C1E53;
+}
+
+#about{
+    padding: 130px 0;
+}
+
+.about_img img{
+    width: 100%;
+}
+
+.about_text h6{
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 600;
+    color: #1C1E53;
+    margin-bottom: 10px;
+}
+
+.about_text h3{
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    color: #1C1E53;
+    margin-bottom: 20px;
+}
+
+.about_text p{
+    font-family:Roboto;
+    font-size:16px;
+    font-weight: 400;
+    color: #1C1E53;
+}
+
+
+
+/*--------portfolio start-----*/
+#portfolio{
+    padding: 130px;
+}
+
+.portfolio_top{
+    margin-bottom: 80px;
+}
+.portfolio_top h5{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    color: #282938;
+}
+
+.portfolio_top h3{
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 600;
+    color: #282938;
+    margin-top: 21px;
+
+}
+.port_btn{
+    background-color: #E62872;
+    padding: 21px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+.port_btn i{
+    margin-right: 12px;
+}
+
+.port_item{
+    box-shadow: 0 0 10px;
+}
+
+.port_item img{
+    width: 100%;
+}
+
+.pi_text{
+    padding: 32px;
+}
+
+.pi_text h5{
+    font-family: Roboto;
+    font-size:32px;
+    font-weight: 700;
+    color:#282938;
+
+}
+
+.pi_text p{
+    font-family: Roboto;
+    font-size:18px ;
+    font-weight:400 ;
+    color: #1C1E53;
+}
+
+.pi_text a{
+    font-family: Roboto;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #5E3BEE;
+}
+
+.pi_text a i {
+    transform: rotate(-45deg);
+}
+/*--------Portfolio End-------*/
+
+/*------Testimonials Start------*/
+#testimonial{
+    padding: 100px 0;
+    background-color: #F5FCFF
+}
+
+.test_item {
+    border: 2px solid#006864;
+    padding: 42px;
+    border-radius: 7px;
+}
+.test_top h5{
+    font-family: Roboto;
+    font-weight:400;
+    font-size: 21px;
+    margin-bottom: 21px;
+    
+}
+
+.test_top h2{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom:80px;
+
+}
+
+.test_item i{
+    color: #006864;
+    margin-bottom: 42px;
+}
+
+.test_item p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 21px;
+    margin-bottom:42px;
+}
+
+.reviewer{
+    display: flex;
+    gap: 21px;
+    align-items: center;
+}
+
+.reviewer img{
+    width: 75px;
+    height: 75px;
+}
+
+.reviewer div h2{
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.reviewer div h3{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 21px;
+}
+/*-------Testmonial End-----*/
+
+/*-------Contact Start--------*/
+
+#contact{
+    padding: 100px 0;
+}
+
+.contact_top{
+    margin-bottom: 64px;
+}
+
+.contact_top h4{
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 21px;
+    margin-bottom: 21px;
+}
+
+.contact_top h2{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 21px;
+}
+
+.contact_top p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24px;
+    color: #1C1E53;   
+}
+
+.user{
+    display: flex;
+    justify-content: space-between;
+}
+.user input{
+    box-shadow: 0 0 3px;
+    width: 310px;
+    border: 2px solid #5E3BEE;
+    height: 44px;
+    outline: none;
+    border-radius: 8px;
+}
+
+form label{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 21px;
+    color: #282938;  
+}
+
+form select{
+    width: 100%;
+    height: 44px;
+    border: 2px solid #5E3BEE;
+    border-radius: 8px;
+}
+
+form textarea{
+    width: 100%;
+    height: 150px;
+    border: 2px solid #5E3BEE;
+    border-radius: 8px;
+    outline: none;
+    padding: 16px;
+}
+ .check_label{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    color: #282938;  
+ }
+
+ .checkbox_div{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+ }
+
+ .form-btn{
+    display: flex;
+    justify-content: center;
+ }
+
+ .form-btn button{
+    padding: 18px 51px;
+    color: white;
+    border: none;
+    margin-top: 40px;
+    background-color: #5E3BEE;
+    border-radius: 7px;
+ }
+ /*-------form end------*/
+
+/*------footer start-----*/
+
+ .icons i{
+    margin-left: 20px;    
+ }
